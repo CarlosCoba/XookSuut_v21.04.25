@@ -243,7 +243,7 @@ def fit(shape, vel_map, e_vel_map, guess,vary,vmode,config, rings_pos, ring_spac
 
 
 		for iy  in range(nrings):
-				fit_params.add('Vrot_%i' % (iy),value=vrot0[iy], vary = vary[0], min = -200, max = 400)
+				fit_params.add('Vrot_%i' % (iy),value=vrot0[iy], vary = vary[0], min = -400, max = 400)
 
 		if config == "":
 
