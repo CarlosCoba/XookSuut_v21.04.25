@@ -16,7 +16,7 @@ from kinematic_centre_vsys import KC
 from CBAR import colorbar as cb
 
 from isolated_pixels import filter_isolated_cells
-from template import params
+#from template import params
 
 from write_table import write
 
